@@ -1,0 +1,58 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    min-width: 320px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .nav-item .current,
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline #cf3c3c 2px;
+    text-underline-offset: 5px;
+}
+
+
+.header {
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.header .container-fluid {
+    background: #1B2BB2;
+    height: 100px;
+
+}
+
+.header .container {
+    height: 100%;
+    color: white;
+}
+
+.image__f img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+
+}
+
+.autro img {
+    max-width: 100%;
+    border-radius: 15px;
+}
